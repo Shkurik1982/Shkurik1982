@@ -5,7 +5,6 @@ while True:
     txt=''
     try: 
         if int(a)>=1 and int(a)<=10:
-            #b=random.randint(1,10)
             if int(a)==b:
                 txt='Вы выиграли.\nНачинаем новый раунд\n'
                 b=random.randint(1,10)
